@@ -39,8 +39,8 @@ const db = mysql.createPool({
   host : 'localhost',
   port : '3306',
   user : 'root',
-  password : 'Rohit@mysql02',
-  database : 'krishnaindustries'
+  password : 'Sathyabama',
+  database : 'krish'
 })
 
 db.getConnection((err, connection) => {
